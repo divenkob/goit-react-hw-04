@@ -1,0 +1,19 @@
+.button {
+    width: 200px;
+    height: 50px;
+    display: flex;
+    margin: 10px auto 40px;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    border: none;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+transition: cubic-bezier(0.075, 0.82, 0.165, 1)
+};
+
+button:hover, button:focus {
+    background-color: rgb(4, 4, 114);
+}
